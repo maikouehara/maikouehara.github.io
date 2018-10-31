@@ -1,0 +1,236 @@
+body {
+  font-family: "Avenir Next";
+}
+
+a {
+  text-decoration: none;
+  color:white;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(255,255,255,0.8);
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+
+li{
+  list-style:none;
+}
+
+li:link{
+  text-decoration:none;
+}
+
+header li{
+  line-height: 45px;
+  color:rgb(90,194,217);
+  width: auto;
+  height: auto;
+  padding:20px;
+  margin-top:100px;
+}
+
+.inline {
+  text-align: center;
+}
+
+.inline li {
+	display: inline;
+}
+
+h1{
+  font-weight: normal;
+  letter-spacing: 5px;
+  text-align: center;
+  font-size: 40px;
+  margin:250px auto 0 auto;
+
+}
+
+h2{
+  font-weight:normal;
+  letter-spacing: 2px;
+  text-align: center;
+  color:rgb(90,194,217);
+  margin:100px 0 50px 0;
+}
+
+
+h3{
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-align: center;
+
+}
+.home{
+  padding: 0 0 100 0;
+  height:500px;
+  background-image:url(photos/top.JPEG);
+  background-size: cover;
+  color: black;
+  text-align: center;
+  font-style: normal;
+}
+
+.home h1{
+  display: inline-block;
+  border-bottom: 2px solid black;
+  padding-bottom: 15px;
+  }
+
+p{
+ font-size:12px;
+}
+
+.profile-wrapper{
+  text-align: center;
+  margin:0 auto;
+  width:400px;
+}
+
+.profile-comments{
+  display: inline-block;
+  text-align: left;
+}
+
+.bc-wraper{
+  text-align: center;
+  margin:0 auto;
+  width:400px;
+}
+
+.bc-comments{
+  display: inline-block;
+  text-align: left;
+}
+
+h4{
+  width:400px;
+  border:1px solid rgb(90,194,217);
+  margin:30px auto;
+  padding:5px;
+  text-align: left;
+}
+
+h5{
+  border-bottom: 1px solid rgb(90,194,217);
+  font-style: normal;
+  font-size: 12px;
+  display: inline-block;
+  margin-bottom: 0px;
+
+}
+
+.bc-comments span{
+  color:rgb(90,194,217);
+}
+
+
+.design{
+  text-align:center;
+}
+
+.bc-images{
+  width:400px;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.bc-items p{
+  text-align: left;
+}
+
+.design img{
+  width: 25%;
+  margin:10px;
+}
+
+.online-shop{
+  text-align:center;
+}
+
+.online-shop img{
+  padding-bottom: 30px;
+}
+
+.btn-wrapper{
+  text-align: center;
+}
+
+.btn {
+  padding: 8px 50px;
+  margin: 5px 10px;
+  background-color: rgb(90,194,217);
+  display: inline-block;
+  border-radius: 4px;
+  opacity:0.8;
+  color:white;
+}
+
+.btn:hover{
+  opacity:1;
+}
+
+.item-images{
+  text-align:center;
+  margin-top:30px;
+  margin-left: auto;
+  margin-right:auto;
+  width:400px;
+}
+
+.item-images img{
+ width:25%;
+ margin:0 10px;
+}
+
+.contact{
+  text-align:center;
+  margin-bottom:100px;
+}
+
+.mailto{
+  text-align: center;
+  width:200px;
+  font-size: 12px;
+}
+
+
+/*お問合せフォーム
+.contact-form{
+  text-align: left;
+  margin:0 25%;
+}
+
+input,textarea{
+  width:400px;
+  margin-top:3px;
+  margin-bottom:20px;
+  padding:10px;
+  font-size:15px;
+  border:1px solid #dee7ec;
+}
+
+.contact-submit{
+  width:400px;
+  opacity:0.8;
+  background-color: rgb(90,194,217);
+  color:#fff;
+  letter-spacing:3px;
+}
+
+.contact-submit:hover{
+  opacity:1;
+
+}
+*/
+
+
+footer{
+  text-align: center;
+  color:#757571;
+  border-top: 1px solid rgb(90,194,217);
+}
