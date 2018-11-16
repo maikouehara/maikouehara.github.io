@@ -67,19 +67,36 @@ h3{
 }
 .home{
   padding: 0 0 100 0;
+  margin-top:65px;
   height:500px;
   background-image:url(photos/top.JPEG);
   background-size: cover;
-  color: black;
   text-align: center;
   font-style: normal;
 }
 
-.home h1{
+.title{
+  display:inline-block;
+  background-color: rgba(255,255,255,0.8);
+  width: 450px;
+  height:240px;
+  margin:130px auto;
+  text-align: center;
+}
+
+.title h1{
   display: inline-block;
+  margin:70px auto 10px auto;
   border-bottom: 2px solid black;
   padding-bottom: 15px;
+  color: black;
   }
+
+.title h3{
+  display:inline-block;
+  padding-top:0;
+
+}
 
 p{
  font-size:12px;
