@@ -1,23 +1,31 @@
 body {
-  font-family: "Avenir Next";
+  font-family: "游明朝";
 }
 
 a {
   text-decoration: none;
-  color:white;
+  color:rgb(90,194,217);
+}
+
+p {
+  line-height:35px;
+}
+
+h2{
+  font-size:35px;
+  font-weight:normal;
+  letter-spacing: 2px;
+  padding-top:70px;
+  padding-bottom:70px;
 }
 
 header {
-  height: 65px;
+  height: 60px;
   width: 100%;
-  background-color: rgba(255,255,255,0.8);
+  background-color:white;
   position:fixed;
   top:0;
   z-index:10;
-}
-
-li{
-  list-style:none;
 }
 
 li:link{
@@ -25,129 +33,137 @@ li:link{
 }
 
 header li{
-  line-height: 45px;
+  list-style:none;
+  line-height:60px;
   color:rgb(90,194,217);
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
   padding:20px;
   margin-top:100px;
 }
 
 .inline {
-  text-align: center;
+  text-align:center;
 }
 
 .inline li {
 	display: inline;
 }
 
-h1{
-  font-weight: normal;
-  letter-spacing: 5px;
-  text-align: center;
-  font-size: 40px;
-  margin:250px auto 0 auto;
-
-}
-
-h2{
-  font-weight:normal;
-  letter-spacing: 2px;
-  text-align: center;
-  color:rgb(90,194,217);
-  margin:100px 0 50px 0;
-}
-
-
-h3{
-  font-weight: normal;
-  letter-spacing: 2px;
-  text-align: center;
-
-}
-.home{
-  padding: 0 0 100 0;
-  margin-top:65px;
-  height:500px;
-  background-image:url(photos/top.JPEG);
-  background-size: cover;
-  text-align: center;
-  font-style: normal;
-}
-
 .title{
-  display:inline-block;
-  background-color: rgba(255,255,255,0.8);
-  width: 450px;
-  height:240px;
-  margin:130px auto;
-  text-align: center;
+  position:absolute;
+  background-color: rgba(90,194,217,0.8);
+  width: 430px;
+  height:200px;
+  margin-top:400px;
 }
 
 .title h1{
-  display: inline-block;
-  margin:70px auto 10px auto;
-  border-bottom: 2px solid black;
-  padding-bottom: 15px;
-  color: black;
-  }
-
-.title h3{
-  display:inline-block;
-  padding-top:0;
-
+  width:350px;
+  color:white;
+  font-weight: normal;
+  letter-spacing: 5px;
+  text-align:center;
+  margin:40px auto 20px auto;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
 }
 
-p{
- font-size:12px;
+.title h3{
+  font-weight: normal;
+  font-size:28px;
+  letter-spacing: 2px;
+  text-align: center;
+  color:white;
+}
+
+.home{
+  position:relative;
+  height:700px;
+  width:700px;
+  background:black;
+  float:right;
+  /*
+  background-image:url(photos/top.JPEG);
+  */
+}
+
+.home-container{
+  width:1000px;
+  height:700px;
+  margin:200px auto 200px auto;
+}
+
+.home-wrapper{
+  margin-top:60px;
+  text-align:center;
+}
+
+/*プロフィール*/
+.profile-container h2{
+  color:white;
 }
 
 .profile-wrapper{
-  text-align: center;
-  margin:0 auto;
-  width:400px;
+  background-color:rgb(90,194,217,0.8);
+  width:100%;
+  padding-bottom:70px;
 }
+
+.profile-container{
+  text-align:center;
+  }
 
 .profile-comments{
   display: inline-block;
   text-align: left;
+  width:700px;
 }
 
-.bc-wraper{
-  text-align: center;
-  margin:0 auto;
-  width:400px;
-}
-
-.bc-comments{
-  display: inline-block;
-  text-align: left;
-}
-
-h4{
-  width:400px;
-  border:1px solid rgb(90,194,217);
-  margin:30px auto;
-  padding:5px;
-  text-align: left;
-}
-
-h5{
-  border-bottom: 1px solid rgb(90,194,217);
-  font-style: normal;
-  font-size: 12px;
-  display: inline-block;
-  margin-bottom: 0px;
-
-}
-
-.bc-comments span{
+/*デザイン*/
+.design-container h2{
   color:rgb(90,194,217);
 }
 
+.design-wrapper{
+  margin:0 auto;
+  width:700px;
+  padding-bottom:70px;
+}
 
-.design{
+.bc-wrapper{
   text-align:center;
+  margin:0 auto 30px;
+}
+
+.design-container{
+  text-align:center;
+}
+
+.bc-comments{
+  text-align:left;
+  width:700px;
+}
+
+.bc-comments p{
+  padding-left:15px;
+}
+
+.bc-comments h4{
+  font-size:20px;
+  border:1.5px solid rgb(90,194,217);
+  padding:10px;
+  margin-bottom:30px;
+}
+
+h5{
+  border-bottom: 1.5px solid rgb(90,194,217);
+  width:130px;
+  text-align:center;
+  font-style: normal;
+  font-size:15px;
+  margin-top:10px;
+  margin-left:15px;
 }
 
 .bc-images{
@@ -156,45 +172,63 @@ h5{
   margin-right:auto;
 }
 
-.bc-items p{
-  text-align: left;
-}
-
-.design img{
+.bc-wrapper img{
   width: 25%;
   margin:10px;
 }
 
-.online-shop{
+
+/*オンラインショップ*/
+.online-shop-container h2{
+    color:white;
+}
+
+.online-shop-wrapper{
+  background-color:rgb(90,194,217,0.8);
+  width:100%;
+  padding-bottom:70px;
+}
+
+.online-shop-container{
   text-align:center;
+}
+
+.online-shop-comments{
+  text-align:left;
+  width:700px;
+  display: inline-block;
+  margin-bottom:30px;
 }
 
 .online-shop img{
   padding-bottom: 30px;
 }
 
-.btn-wrapper{
-  text-align: center;
+.minne{
+  background-color:rgb(255,255,255);
+  color:rgb(90,194,217);
+}
+
+.creema{
+  background-color:rgb(255,255,255);
+  color:rgb(90,194,217);
 }
 
 .btn {
-  padding: 8px 50px;
-  margin: 5px 10px;
-  background-color: rgb(90,194,217);
   display: inline-block;
-  border-radius: 4px;
-  opacity:0.8;
-  color:white;
-}
-
-.btn:hover{
-  opacity:1;
+  padding: 7px 100px;
+  margin: 5px 10px;
+/*background-color: rgb(90,194,217);
+  opacity:0.8;*/
+  border-radius: 5px;
+  font-size:15pt;
 }
 
 .item-images{
   text-align:center;
   margin-top:30px;
   margin-left: auto;
+  
   margin-right:auto;
   width:400px;
 }
@@ -204,17 +238,32 @@ h5{
  margin:0 10px;
 }
 
+/*コンタクト*/
+
 .contact{
   text-align:center;
   margin-bottom:100px;
 }
 
 .mailto{
+  background-color: rgb(90,194,217,0.8);
+  color:white;
   text-align: center;
   width:200px;
-  font-size: 12px;
 }
 
+.mailto:hover{
+  background-color:rgb(90,194,217,1);
+  opacity:1;
+}
+
+footer{
+  text-align: center;
+  color:#757571;
+  border-top: 1px solid rgb(90,194,217);
+  padding-top:15px;
+  padding-bottom:15px;
+}
 
 /*お問合せフォーム
 .contact-form{
@@ -244,10 +293,3 @@ input,textarea{
 
 }
 */
-
-
-footer{
-  text-align: center;
-  color:#757571;
-  border-top: 1px solid rgb(90,194,217);
-}
